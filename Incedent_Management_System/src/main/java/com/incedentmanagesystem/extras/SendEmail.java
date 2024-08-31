@@ -49,7 +49,7 @@ public static boolean sendEmail(String email, String password) {
 		Session session=Session.getInstance(properties, new Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {				
-				return new PasswordAuthentication("ashutosh.recruitometry@gmail.com","mrvg frqx ilqs qmou"
+				return new PasswordAuthentication("abc@gmail.com","mrqg frqx giqs qmou"
 						+ "");
 			}});
 		
